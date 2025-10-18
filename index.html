@@ -40,8 +40,17 @@
     <!---------------Link--------------------->
 
     <!--links & its targets  -->
-    
-    
+
+    <!---------------Tables--------------------->
+
+    <!--table , td & th tag  -->
+
+    <!---------------Forms--------------------->
+
+    <!--form mrthod  -->
+    <!--input  -->
+    <!-- textarea  -->
+
 
     <!------------------------------------>
 
@@ -265,21 +274,65 @@ Ye us term ki definition ya explanation hoti hai. -->
 
     <!-- HTML me (TARGET) attribute use hota hai <a> (anchor) tag ke andar — ye batata hai link kis jagah (window ya tab) me open hoga. -->
 
-       
-<!-- _self	Default — link same tab/window me open hota hai.
+
+    <!-- _self	Default — link same tab/window me open hota hai.
 _blank	Link new tab me open hotta hai.
 _parent	Link parent frame me open hotta hai (frames ke case me).
 _top	Link poori window me open hotta hai (frames ko ignore karta hai). -->
 
-<a href="https://www.google.com" target="_blank">Open Google</a><br>
-<a href="https://www.twitter.com" target="_self">Open Twitter</a><br>
-<a href="https://www.Instagram.com" target="_parent">Open Instagram</a><br>
-<a href="https://www.Firefox.com" target="_top">Open Firefox</a>
+    <a href="https://www.google.com" target="_blank">Open Google</a><br>
+    <a href="https://www.twitter.com" target="_self">Open Twitter</a><br>
+    <a href="https://www.Instagram.com" target="_parent">Open Instagram</a><br>
+    <a href="https://www.Firefox.com" target="_top">Open Firefox</a>
 
 
+    <!------------------------Tables--------------------------->
 
+    <table>
+        <tr>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>50</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>80</td>
+            <td>90</td>
+        </tr>
+    </table>
 
+    <!------------------------Forms--------------------------->
 
+    <form action="https://www.example.com/subscribe.php" method="get">
+        <p>Its My Way </p>
+    </form>
+
+    <form action="https://www.example.com/subscribe.php">
+        <p>
+            username:
+            <input type="text" name="username" size="10" maxlength="8">
+        </p>
+    </form>
+
+    <form action="https://www.example.com/subscribe.php">
+        <p>
+            password:
+            <input type="password" name="password" size="15" maxlength="30">
+        </p>
+    </form>
+
+    <form action="https://www.example.com/comments.php">
+        <p>
+            what did you think about website?
+        </p>
+        <textarea name="comments" id="comments" cols="20" rows="4">Enter your comments......
+</textarea>
+    </form>
 
 
 
